@@ -1,17 +1,12 @@
 'use client'
 
-import { useState } from 'react'
+//All styling has been imported from https://tailwindui.com/
 import AssignedDropdown from '../components/dropdown'
 
 export default function LandingPage() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="min-h-screen bg-white">
-      <nav className="px-4 py-4 sm:px-6 lg:px-8">
-        {/* Add navigation content here if needed */}
-      </nav>
-
       <main className="relative isolate">
         <div
           aria-hidden="true"
@@ -29,12 +24,15 @@ export default function LandingPage() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center min-h-[calc(100vh-4rem)] py-16 sm:py-24 lg:py-32">
             <h1 className="text-balance text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl md:text-6xl lg:text-7xl text-center">
+              {/* title */}
               Fruitify - know the fruit you are eating
             </h1>
             <p className="mt-6 text-pretty text-lg font-medium text-gray-500 sm:text-xl max-w-2xl text-center">
-              From calories to fiber, learn more about the macros you are eating in the essential fruits
+              {/* sub title */}
+              What healthy (non healthy?) options do you have with your favorite fruits?
             </p>
             <div className="mt-10 w-full max-w-md">
+              {/* our list of options */}
               <AssignedDropdown />
             </div>
           </div>

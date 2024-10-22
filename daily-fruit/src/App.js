@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+{/* import fruit pages*/}
 import Landing_page from './pages/landing';
 import BananaFoods from './pages/banana_foods';
 import AppleFoods from './pages/apple_foods';

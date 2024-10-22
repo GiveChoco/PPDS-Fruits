@@ -1,6 +1,9 @@
+//All styling has been imported from https://tailwindui.com/
+
 export default function build_stack(foodList) {
   return (
     <ul role="list" className="divide-y divide-gray-200 rounded-lg shadow overflow-hidden bg-white">
+      {/* GPT -> help with building the map function - it was also given in the tailwind UI*/}
       {foodList.map((food) => (
         <li key={food.foodName} className="flex items-center justify-between p-4 hover:bg-gray-50 transition-colors duration-150">
           <div className="flex items-center min-w-0 gap-x-4">

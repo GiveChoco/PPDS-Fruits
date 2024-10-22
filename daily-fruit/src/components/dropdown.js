@@ -1,4 +1,6 @@
 'use client'
+//All styling has been imported from https://tailwindui.com/
+//This used the https://tailwindui.com/components/application-ui/lists/stacked-lists preset
 
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'; 
@@ -16,6 +18,7 @@ const fruits = [
 
 export default function AssignedDropdown() {
   const [selected, setSelected] = useState(fruits[0])
+  //GPT - useNavigate --> GPTed to learn about switching pages using router 
   const navigate = useNavigate();
 
   const handleSelect = (fruit) => {
