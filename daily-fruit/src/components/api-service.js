@@ -15,8 +15,8 @@ const useFetchData = (api_url) => {
           method: "GET",
           headers: {
             'Content-Type': 'application/json',
-            'x-app-id': 'a2d67421', 
-            'x-app-key': 'cd6ecd1e9b0bca98b1d06f33f742c008', 
+            'x-app-id': process.env.REACT_APP_API_ID, 
+            'x-app-key': process.env.REACT_APP_API_KEY, 
           },
         });
 
