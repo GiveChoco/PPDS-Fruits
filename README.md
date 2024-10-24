@@ -24,12 +24,25 @@ This is not for commercial use and strictly for educational purposes
 * Reformatting the tailwind UI to meet my data
 
 ## How to run this repository 
-
 1. git clone [https://github.com/GiveChoco/PPDS-Fruits](https://github.com/GiveChoco/PPDS-Fruits)  
-2. ``` cd daily-fruit ```
-3. ``` npm install  ```
+2. cd to daily fruit
+   ```
+   cd daily-fruit
+   ```
+3. install package
+   ```
+   npm install 
+   ```
 4. Create a .env file and place it in the daily-fruit directory (not src, pages or anywhere else)
-5. In the .env file put ```REACT\_APP\_API\_ID: "YOUR API KEY"``` and ```REACT\_APP\_API\_KEY: "YOUR API KEY``` generated from [https://developer.nutritionix.com/](https://developer.nutritionix.com/)  
-6. ``` npm start ```
+5. In the .env file put
+   ```
+   REACT\_APP\_API\_ID: "YOUR API KEY"
+   REACT\_APP\_API\_KEY: "YOUR API KEY
+   ```
+   generated from [https://developer.nutritionix.com/](https://developer.nutritionix.com/)  
+6. run the project
+   ```
+   npm start
+   ```
 
 
