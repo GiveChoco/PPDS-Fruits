@@ -22,6 +22,7 @@ const useFetchData = (api_url) => {
         });
 
         const response = await fetch(myRequest);
+        
         {/* If invalid, raise error */}
         if (!response.ok) {
           throw new Error('Network response was not ok');
